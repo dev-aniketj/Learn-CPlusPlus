@@ -15,9 +15,9 @@ class A {
 			return temp;
 		}
 		//operator overloading
-		A operator +(A obj2) {
+		A operator +(A obj) {
 			A temp;
-			temp.weight = weight + obj2.weight;
+			temp.weight = weight + obj.weight;
 			return temp;
 		}
 		void getData() {
