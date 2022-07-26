@@ -26,7 +26,7 @@ class A {
 };
 int main() {
 	A person1(4);
-	A person2(7), person3(1);
+	A person2(7), person3(2);
 
 	A total = person1+person2+person3;			//operator overloading
 //	total = person1.addWeight(person2);	//traditional overloading
