@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
 
-	ifstream fin;	//create input stream
+	ifstream fin;		//create input stream
 	char ch;		//variable for storing GET pointer character
 
 	fin.open("my.txt");	//load file in RAM
