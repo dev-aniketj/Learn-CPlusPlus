@@ -9,9 +9,9 @@ int main() {
 	fout.open("my.txt");	//load file in RAM
 	//if it doesn't exist - then it will create automatically.
 
-	fout<<"My name is Aniket Jain.";	//writing data into file
+	fout<<"My name is Aniket.\nHello World";	//writing data into file
 
-	fout.close();	//closing the file.
+	fout.close();	//closing the file and save the changes.
 
 	return 0;
 }

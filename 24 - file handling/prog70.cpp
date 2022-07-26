@@ -6,11 +6,11 @@ int main(){
 	int pos;
 	ofstream fout;
 	
-	fout.open("my.txt", ios::app);
+	fout.open("my.txt", ios::app);	//append
 	pos = fout.tellp();
 	cout<<pos<<endl;
 	
-	fout<<"hello world";
+	fout<<"helloworld";
 	pos = fout.tellp();
 	cout<<pos<<endl;
 	

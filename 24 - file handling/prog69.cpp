@@ -3,17 +3,20 @@
 #include <fstream>
 using namespace std;
 int main() {
-	int pos;
+	
 	ifstream fin;
 	char ch;
+	int pos;
 
 	fin.open("my.txt");
-	pos  = fin.tellg();
+	pos = fin.tellg();
 	cout<<pos<<endl;
 
 	fin>>ch;	//move pointer forward
 	pos = fin.tellg();
 	cout<<pos<<endl;
+	
+	fin.close();
 
 	return 0;
 }

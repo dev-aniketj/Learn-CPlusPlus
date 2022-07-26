@@ -17,6 +17,6 @@ int main() {
 	}
 
 	fin.close();		//close the file.
-	
+
 	return 0;
 }

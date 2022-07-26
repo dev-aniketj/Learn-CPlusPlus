@@ -1,4 +1,5 @@
-//static function
+//static function and static variable in class
+
 #include <iostream>
 using namespace std;
 class Alpha {
