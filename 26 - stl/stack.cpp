@@ -17,7 +17,7 @@ int main() {
 	cout<<"Top : "<<stack1.top()<<endl;	//50
 	
 	// pop
-	stack1.pop();	// 10 , 20
+	stack1.pop();	// 50
 	cout<<"New Top : "<<stack1.top()<<endl;	//40
 	
 	// size

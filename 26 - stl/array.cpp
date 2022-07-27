@@ -4,11 +4,13 @@ using namespace std;
 
 int main() {
 //	Array declaration
-	std::array<int, 10> array1;
+	array<int, 10> array1;
 
 //	Array intialization
-	std::array <int, 10> array2 = {10,20,30};
+	array<int, 10> array2 = {10,20,30};
 
+	//change
+	array2.at(2) = 50;
 //	methods
 	cout<<"At "<<array2.at(1)<<endl;	//20
 	cout<<"[] "<<array2[2]<<endl;		//30

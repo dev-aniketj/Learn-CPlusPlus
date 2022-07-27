@@ -2,12 +2,12 @@
 using namespace std;
 class Test {
 	public:
-		int *age;
+		int *age;	//wild pointer
 	public:
-		Test(int a = 22) {
+		Test(int a = 0) {
 			age = new int();
 			*age = a;
-			cout<<"Constructor"<<endl;
+			cout<<"Constructor (age) : "<<*age<<endl;
 		}
 		~Test() {
 			delete age;
@@ -16,5 +16,6 @@ class Test {
 };
 int main() {
 	Test obj1(20);
+	Test obj2;
 	return 0;
 }

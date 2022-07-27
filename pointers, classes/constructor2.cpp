@@ -8,7 +8,7 @@ class A {
 		A(string n) {
 			name = n;
 		}
-		A(A &obj) {
+		A(A& obj) {	//copy constructor
 			this->name = obj.name;
 		}
 		void getData() {

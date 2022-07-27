@@ -2,7 +2,10 @@
 #include <string>
 using namespace std;
 
-template <class T> class Demo {
+//template class
+
+template <class T>
+class Demo {
 	private:
 		T x;
 		T y;
@@ -18,7 +21,7 @@ template <class T> class Demo {
 
 int main() {
 	Demo<int> demo1;
-	demo1.getData(10,20);
+	demo1.getData(10, 20);
 	demo1.add();
 
 	Demo<double> demo2;

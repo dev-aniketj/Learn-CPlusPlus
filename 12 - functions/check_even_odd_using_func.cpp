@@ -6,7 +6,7 @@ int main() {
 	checkNum(5);
 	return 0;
 }
-//define
+//definition
 inline void checkNum(int num) {
 	if(num%2==0)
 		cout<<"Even"<<endl;

@@ -4,8 +4,8 @@ int main() {
 	int a = 10;
 	int *ptr = NULL;	//NULL Pointer
 	int **ptr2;			//WILD Pointer
-	ptr2 = &ptr;
 	ptr = &a;
+	ptr2 = &ptr;
 	cout<<ptr<<endl;		//address of a
 	cout<<ptr2<<endl;		//address of ptr
 	cout<<*ptr<<endl;		//value of a

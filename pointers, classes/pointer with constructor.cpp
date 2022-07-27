@@ -7,7 +7,7 @@ class Person {
 		int age;
 		Person *ptr = this;
 	public :
-		Person(string name, int age=int(NULL)) {
+		Person(string name, int age=(int)NULL) {
 //			this->name = name;
 //			this->age = age;
 			ptr->name = name;

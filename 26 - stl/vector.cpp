@@ -12,7 +12,6 @@ void printVec(vector<int> vector2) {
 
 int main() {
 
-
 	vector<int> vector1;
 	cout<<vector1.size()<<endl;	//intial size of vector is 0
 
@@ -31,11 +30,11 @@ int main() {
 	vector<int>::iterator i = vector2.begin();
 	vector2.insert(i,70);	//it insert element at the begin of the vector.
 	printVec(vector2);
-	
+
 	vector2.erase(i);		//erase or delete the element where the iterator is located.
 	vector2.erase(i);
 	printVec(vector2);
-	
+
 	cout<<"\ncapacity of vector2 is : "<<vector2.capacity()<<endl;
 	// it will return how much element we can store in it.
 

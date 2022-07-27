@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int size = 5, i=0;
+	int size=5, i=0;
 	int arr[5];
 	cout<<"Enter the values : \n";
-	for(i=0; i<size; i++) {
+	for(i=0; i<size; i++) {	//read
 		cin>>arr[i];
 	}
+	
 	int min=arr[0], max=arr[0];
 	for(i=0; i<size; i++) {
 		if(min>arr[i])

@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 namespace demo {
 	int a = 5;
@@ -6,9 +7,9 @@ namespace demo {
 		std::cout<<"ShreyYash"<<std::endl;
 	}
 }
-using namespace demo;
+
 int main() {
-	show();
-	std::cout<<demo::a;
+	demo::show();
+	cout<<demo::a;
 	return 0;
 }

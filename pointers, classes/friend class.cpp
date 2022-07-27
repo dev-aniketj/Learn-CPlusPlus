@@ -5,7 +5,7 @@ class Alpha {
 	private:
 		int a1;
 	public:
-		Alpha(int arg=0) {
+		Alpha(int arg) {
 			a1=arg;
 		}
 		friend class Beta;
@@ -14,7 +14,7 @@ class Beta {
 	private:
 		int b1;
 	public:
-		Beta(int arg=0) {
+		Beta(int arg) {
 			b1=arg;
 		}
 		int Sum() {

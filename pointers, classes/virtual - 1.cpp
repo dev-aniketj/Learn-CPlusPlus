@@ -1,6 +1,7 @@
 //virtual - 1
 #include<iostream>
 using namespace std;
+
 class Base {
 	public:
 		virtual	void show() {
@@ -28,4 +29,5 @@ int main() {
 	ptr = new Derived2();
 	ptr->show();
 
+	return 0;
 }

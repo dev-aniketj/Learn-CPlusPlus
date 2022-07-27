@@ -4,7 +4,8 @@ using namespace std;
 
 // template func
 
-template <class T> T sum(T x, T y) {
+template <class T>
+T sum(T x, T y) {
 	return x+y;
 }
 

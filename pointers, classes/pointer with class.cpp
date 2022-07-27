@@ -4,7 +4,7 @@ class Car {
 	private:
 		int weight;
 	public:
-		void setWeight(int w) {
+		void setWeight(int w=0) {
 			weight = w;
 		}
 		int getWeight() {
@@ -31,6 +31,7 @@ class BMW {
 		//Destructor
 		~BMW() {
 			delete ptr;
+			cout<<"Destructor"<<endl;
 		}
 };
 int main() {

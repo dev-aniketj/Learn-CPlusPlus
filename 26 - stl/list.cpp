@@ -3,10 +3,10 @@
 using namespace std;
 int main() {
 	//declaration
-	std::list<int> list1;
+	list<int> list1;
 
 	//initialization
-	std::list<int> list2 = {10,20,30};
+	list<int> list2 = {10,20,30};
 
 	//methods
 

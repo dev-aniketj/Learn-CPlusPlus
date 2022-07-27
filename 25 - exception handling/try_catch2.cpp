@@ -13,8 +13,7 @@ int main() {
 	cin>>num2;
 	try {
 		if(num2==0) {
-			string err_msg = "Number divided by 0.";
-			throw err_msg;
+			throw (string)"Number divided by 0.";
 		} else {
 			cout<<"Result is : "<<num1/num2;
 		}

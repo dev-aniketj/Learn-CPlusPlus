@@ -7,7 +7,7 @@ void printMap(map<int, string>);	//prototype
 int main() {
 
 	//std::map<key, value> map_name;
-	std::map<int, string> map1 = { {1, "aniket"}, {2, "ayush"}, {3, "chinmay"}};
+	map<int, string> map1 = { {1, "aniket"}, {2, "ayush"}, {3, "chinmay"}};
 
 	printMap(map1);
 
